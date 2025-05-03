@@ -1,0 +1,131 @@
+body
+{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+nav
+{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 15px 30px;
+    position: sticky;
+}
+
+.brand-container
+{
+    margin: 0;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #9fd2cd;
+    display: inline-block;
+}
+#brandname
+{
+    margin: 0;
+    font-size: 30px;
+}
+.links-container
+{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    left: 175px;
+    top: -4px;
+}
+.link
+{
+    display: inline-block;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    transition: .5s text-decoration 1s;
+}
+
+.link:hover
+{
+    color: white;
+    transform: rotate();
+    text-decoration:underline;
+    text-decoration: color(#1E90FF)
+    ;
+}
+
+img
+{
+    width: 50%;
+    float: right;
+    position: relative;
+    top: -10px;
+}
+
+section
+{
+    position: relative;
+    top: 250px;
+    left: 100px;
+    display: inline-block;
+}
+
+#applicant-name
+{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: xx-large;
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+
+#short-desc
+{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px 0;
+   
+    
+}
+#webdev
+{
+    color: #9fd2cd;
+}
+strong
+{
+    color: #9fd2cd;
+}
+
+.fbicon
+{
+    width: 10%;
+}
+.contact
+{
+    background-color: #9fd2cd;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    width: auto;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: .3s;
+}
+
+.contact:hover
+{
+    background-color: #9fd2cd07;
+    color: white;
+    border-style: solid;
+    border-color: #9fd2cd;
+    border-width: 3px;
+}
+article
+{
+    display: inline-block;
+    color: white;
+}

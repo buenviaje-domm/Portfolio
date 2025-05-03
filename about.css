@@ -1,0 +1,23 @@
+.portrait
+{
+    width: 200px;
+    padding-top: 20px;
+    display: inline-block;
+}
+#aboutme
+{
+    margin: 0;
+}
+header
+{
+    color: white;
+}
+body
+{
+    background-color: black;
+    margin: 0;
+}
+.main-container
+{
+    padding: 20px 20px;
+}
